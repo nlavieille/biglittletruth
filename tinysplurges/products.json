@@ -1,1 +1,223 @@
-[]
+[
+  {
+    "id": "color-stack-challenge",
+    "name": "Color Stack Challenge",
+    "description": "A colourful, fast-paced stacking challenge that turns family game night into a head-to-head competition.",
+    "categories": [
+      "Games & Fun"
+    ],
+    "merchant": "Amazon",
+    "image": null,
+    "imageAlt": "Color Stack Challenge",
+    "displayOrder": 1,
+    "active": true,
+    "links": {
+      "US": "https://link.amazon/B0bXzG8xw",
+      "CA": "https://link.amazon/B05o6c1vh"
+    },
+    "images": {
+      "US": "assets/products/color-stack-challenge.webp"
+    }
+  },
+  {
+    "id": "fullstar-pro-chopper",
+    "name": "Fullstar Pro Vegetable Chopper & Spiralizer",
+    "description": "Make everyday meal preparation easier with this versatile kitchen tool for chopping, slicing and spiralizing vegetables.",
+    "categories": [
+      "Home & Kitchen"
+    ],
+    "merchant": "Amazon",
+    "image": null,
+    "imageAlt": "Fullstar Pro Vegetable Chopper & Spiralizer",
+    "displayOrder": 3,
+    "active": true,
+    "links": {
+      "US": "https://link.amazon/B0j2HBEyD",
+      "CA": "https://link.amazon/B0fruABId"
+    },
+    "images": {
+      "US": "assets/products/fullstar-chopper.webp"
+    }
+  },
+  {
+    "id": "yll-mini-karaoke",
+    "name": "YLL Mini Karaoke Machine",
+    "description": "Bring the party anywhere with a colourful mini karaoke machine that's a fun gift for little performers.",
+    "categories": [
+      "Games & Fun"
+    ],
+    "merchant": "Amazon",
+    "image": null,
+    "imageAlt": "YLL Mini Karaoke Machine",
+    "displayOrder": 4,
+    "active": true,
+    "links": {
+      "US": "https://link.amazon/B0jgrGNJZ",
+      "CA": "https://link.amazon/B0gz5uwxF"
+    },
+    "images": {
+      "US": "assets/products/yll-mini-karaoke.webp"
+    }
+  },
+  {
+    "id": "medicube-collagen-jelly",
+    "name": "Medicube Collagen Jelly Cream",
+    "description": "A lightweight jelly-textured moisturizing cream for a little everyday skincare indulgence.",
+    "categories": [
+      "Beauty & Self-Care"
+    ],
+    "merchant": "Amazon",
+    "image": null,
+    "imageAlt": "Medicube Collagen Jelly Cream",
+    "displayOrder": 6,
+    "active": true,
+    "links": {
+      "US": "https://link.amazon/B0hMPPEmz",
+      "CA": "https://link.amazon/B024HbSah"
+    },
+    "images": {
+      "US": "assets/products/medicube-collagen-jelly.webp"
+    }
+  },
+  {
+    "id": "chicken-vs-hotdog",
+    "name": "Chicken vs Hotdog Party Game",
+    "description": "A hilarious flipping challenge that brings out everyone's competitive side. A fun addition to parties and family game nights.",
+    "categories": [
+      "Games & Fun"
+    ],
+    "merchant": "Amazon",
+    "image": null,
+    "imageAlt": "Chicken vs Hotdog Party Game",
+    "displayOrder": 7,
+    "active": true,
+    "links": {
+      "US": "https://link.amazon/B06iIzhRx",
+      "CA": "https://link.amazon/B04hXkM7Q"
+    },
+    "images": {
+      "US": "assets/products/chicken-vs-hotdog.webp"
+    }
+  },
+  {
+    "id": "squeeze-please-squishies",
+    "name": "Squeeze Please Scented Marshmallow Squishies — 3 Pack",
+    "description": "Three adorable, colourful marshmallow-inspired squishies that make playful stocking stuffers.",
+    "categories": [
+      "Games & Fun"
+    ],
+    "merchant": "Amazon",
+    "image": null,
+    "imageAlt": "Squeeze Please Scented Marshmallow Squishies — 3 Pack",
+    "displayOrder": 2,
+    "active": true,
+    "links": {
+      "US": "https://link.amazon/B00HynZnX"
+    },
+    "images": {
+      "US": "assets/products/squeeze-please-squishies.webp"
+    }
+  },
+  {
+    "id": "octobuddy-classic",
+    "name": "OCTOBUDDY Classic Silicone Suction Phone Mount",
+    "description": "A clever silicone phone accessory for hands-free filming on suitable smooth surfaces.",
+    "categories": [
+      "Clever Gadgets"
+    ],
+    "merchant": "Amazon",
+    "image": null,
+    "imageAlt": "OCTOBUDDY Classic Silicone Suction Phone Mount",
+    "displayOrder": 5,
+    "active": true,
+    "variants": [
+      {
+        "id": "chalk-pink",
+        "name": "Chalk Pink",
+        "links": {
+          "US": "https://link.amazon/B0eD08ugS"
+        },
+        "images": {
+          "US": "assets/products/octobuddy-chalk-pink.webp"
+        }
+      },
+      {
+        "id": "darth-vader",
+        "name": "Darth Vader",
+        "links": {
+          "US": "https://link.amazon/B0eTCRqKY"
+        },
+        "images": {
+          "US": "assets/products/octobuddy-darth-vader.webp"
+        }
+      }
+    ]
+  },
+  {
+    "id": "retro-vinyl-bluetooth",
+    "name": "Retro Vinyl Record Player with Bluetooth",
+    "description": "Bring a little vintage charm to your space with a retro-inspired record player featuring built-in speakers and Bluetooth reception.",
+    "categories": [
+      "Clever Gadgets"
+    ],
+    "merchant": "Amazon",
+    "image": null,
+    "imageAlt": "Retro Vinyl Record Player with Bluetooth",
+    "displayOrder": 8,
+    "active": true,
+    "links": {
+      "US": "https://link.amazon/B0635Jc4r"
+    },
+    "images": {
+      "US": "assets/products/cotsoco-record-player.webp"
+    }
+  },
+  {
+    "id": "joyin-mini-mochi",
+    "name": "JOYIN Mini Mochi Squishy Toys — 25 Pack",
+    "description": "A collection of 25 adorable miniature squishy toys for stocking stuffers, party favours and little surprises.",
+    "categories": [
+      "Games & Fun"
+    ],
+    "merchant": "Amazon",
+    "image": null,
+    "imageAlt": "JOYIN Mini Mochi Squishy Toys — 25 Pack",
+    "displayOrder": 2,
+    "active": true,
+    "links": {
+      "CA": "https://link.amazon/B02PHHuU6"
+    }
+  },
+  {
+    "id": "dreamslink-phone-mount",
+    "name": "DreamsLink Silicone Suction Cup Phone Mount — Baby Pink",
+    "description": "A double-sided silicone suction phone mount for convenient hands-free positioning on suitable smooth surfaces.",
+    "categories": [
+      "Clever Gadgets"
+    ],
+    "merchant": "Amazon",
+    "image": null,
+    "imageAlt": "DreamsLink Silicone Suction Cup Phone Mount — Baby Pink",
+    "displayOrder": 5,
+    "active": true,
+    "links": {
+      "CA": "https://link.amazon/B08Vvgr07"
+    }
+  },
+  {
+    "id": "vintage-wood-red-player",
+    "name": "Vintage Wood Red Record Player",
+    "description": "A vintage-inspired, three-speed vinyl record player with built-in speakers and a warm wood-red finish.",
+    "categories": [
+      "Clever Gadgets"
+    ],
+    "merchant": "Amazon",
+    "image": null,
+    "imageAlt": "Vintage Wood Red Record Player",
+    "displayOrder": 8,
+    "active": true,
+    "links": {
+      "CA": "https://link.amazon/B0f7dZ2u2"
+    }
+  }
+]

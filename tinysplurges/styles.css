@@ -1,1 +1,92 @@
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff9ef;color:#391c19;font:16px/1.5 system-ui,sans-serif}header,main,footer{max-width:1120px;margin:auto;padding:20px}header{display:flex;justify-content:space-between;align-items:center;gap:12px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit;font-size:22px;font-weight:900}.brand img{width:64px;border-radius:50%}.brand small{display:block;font-size:12px;font-weight:600}select,input,button{font:inherit}select,input{border:1px solid #c9b9a8;border-radius:10px;padding:10px;background:white;color:inherit}.hero{background:#ffdc55;border-radius:26px;padding:clamp(24px,5vw,64px);display:flex;align-items:center;justify-content:space-between;gap:20px}.hero img{width:34%;border-radius:50%}.eyebrow{font-size:12px;font-weight:900;letter-spacing:2px;color:#8a2922}h1{font-size:clamp(42px,7vw,84px);line-height:.98;letter-spacing:-.055em;margin:12px 0}h2{font-size:clamp(24px,4vw,36px);line-height:1.15;margin:8px 0 18px}.button{display:inline-block;background:#b92325;color:white;padding:13px 20px;border-radius:999px;text-decoration:none;font-weight:800}.disclosure{font-size:13px;color:#68544a;margin:20px 0 40px}.sectionhead{display:flex;justify-content:space-between;align-items:center;gap:15px}nav{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}nav button{border:1px solid #d8c6b6;background:white;border-radius:999px;padding:8px 14px;cursor:pointer;color:inherit}nav button[aria-pressed=true]{background:#391c19;color:white}.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.product{background:white;border:1px solid #eadbca;border-radius:18px;padding:18px}.product img{width:100%;aspect-ratio:1;object-fit:contain}.product h3{margin:8px 0}.product .button{width:100%;text-align:center}.social{margin-top:40px;background:#ffe9b3;border-radius:20px;padding:28px;text-align:center}a{color:#922323}footer{text-align:center;font-size:13px}#status{color:#68544a} :focus-visible{outline:3px solid #1559a5;outline-offset:3px}@media(max-width:600px){header{padding:12px}.brand{font-size:17px}.brand img{width:44px}header label{font-size:12px}main{padding:12px}.hero img{width:28%}.sectionhead{display:block}.sectionhead input{width:100%}.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.product{padding:12px}.product .button{font-size:13px}}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #fff9ef; color: #391c19; font: 16px/1.5 system-ui, sans-serif; }
+header, main, footer { max-width: 1120px; margin: auto; padding: 20px; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; font-size: 22px; font-weight: 900; }
+.brand img { width: 64px; border-radius: 50%; }
+.brand small { display: block; font-size: 12px; font-weight: 600; }
+select, input, button { font: inherit; }
+select, input { border: 1px solid #c9b9a8; border-radius: 10px; padding: 10px; background: white; color: inherit; }
+.hero { background: #ffdc55; border-radius: 26px; padding: clamp(24px, 5vw, 64px); display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.hero img { width: 34%; border-radius: 50%; }
+.eyebrow { font-size: 12px; font-weight: 900; letter-spacing: 2px; color: #8a2922; }
+h1 { font-size: clamp(42px, 7vw, 84px); line-height: .98; letter-spacing: -.055em; margin: 12px 0; }
+h2 { font-size: clamp(24px, 4vw, 36px); line-height: 1.15; margin: 8px 0 18px; }
+.button { display: inline-block; background: #b92325; color: white; padding: 13px 20px; border-radius: 999px; text-decoration: none; font-weight: 800; }
+.disclosure { font-size: 13px; color: #68544a; margin: 20px 0 40px; }
+.sectionhead { display: flex; justify-content: space-between; align-items: center; gap: 15px; }
+nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+nav button { border: 1px solid #d8c6b6; background: white; border-radius: 999px; padding: 8px 14px; cursor: pointer; color: inherit; }
+nav button[aria-pressed=true] { background: #391c19; color: white; }
+.products { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+.product { background: white; border: 1px solid #eadbca; border-radius: 18px; padding: 18px; }
+.product img { width: 100%; aspect-ratio: 1; object-fit: contain; }
+.product h3 { margin: 8px 0; }
+.product .button { width: 100%; text-align: center; }
+.social { margin-top: 40px; background: #ffe9b3; border-radius: 20px; padding: 28px; text-align: center; }
+a { color: #922323; }
+footer { text-align: center; font-size: 13px; }
+#status { color: #68544a; }
+:focus-visible { outline: 3px solid #1559a5; outline-offset: 3px; }
+
+@media (max-width: 600px) {
+  header { padding: 12px; }
+  .brand { font-size: 17px; }
+  .brand img { width: 44px; }
+  header label { font-size: 12px; }
+  main { padding: 12px; }
+  .hero img { width: 28%; }
+  .sectionhead { display: block; }
+  .sectionhead input { width: 100%; }
+  .products { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .product { padding: 12px; }
+  .product .button { font-size: 13px; }
+}
+
+#finds {
+  background: #f1eeeb;
+  border-radius: 20px;
+  padding: clamp(14px, 3vw, 28px);
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.product-placeholder {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  padding: 10px;
+  border: 1px dashed #a39285;
+  border-radius: 12px;
+  background: #f6f3f0;
+  color: #68544a;
+  text-align: center;
+  font-size: .875rem;
+}
+
+.product-category, .product-price {
+  color: #68544a;
+  font-size: .875rem;
+}
+
+.product-category { margin: 12px 0 0; }
+.product-actions { margin-top: auto; }
+
+.product-variant {
+  display: grid;
+  gap: 4px;
+}
+
+.product-variant select { width: 100%; }
+
+@media (max-width: 420px) {
+  .products { grid-template-columns: minmax(0, 1fr); }
+}
+.product-media img { display:block; border-radius:12px; }
+.image-note { font-size:11px; color:#68544a; margin:4px 0; }
